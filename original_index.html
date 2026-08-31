@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+<meta charset="UTF-8">
+<title>~*~ Jens Falafel - Oslos BESTE falafel siden 2003! ~*~</title>
+<meta name="description" content="Jens Falafel - hjemmeside under konstruksjon">
+
+<!-- ======================================================================
+     OPPGAVE TIL ELEVENE:
+     Denne siden er laget med vilje i tidlig 2000-talls-stil (Y2K/GeoCities).
+     Dere skal videreutvikle denne til en MODERNE, FIN nettside i tillegg
+     til å bygge ekte funksjonalitet. 
+     ====================================================================== -->
+
+<style>
+
+  body {
+    margin: 0;
+    font-family: "Comic Sans MS", "Comic Neue", cursive;
+    color: #000080;
+    background-image:
+      repeating-linear-gradient(45deg, #ffff00 0, #ffff00 10px, #00ff00 10px, #00ff00 20px);
+  }
+
+  a { color: #ff00ff; }
+  a:visited { color: #800080; }
+
+  .wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+    background: #ffffff;
+    border: 6px double #ff00ff;
+    padding: 10px;
+    box-shadow: 0 0 25px #000;
+  }
+
+  header {
+    text-align: center;
+    background: repeating-linear-gradient(90deg, #ff0000, #ff9900 20px);
+    padding: 12px;
+    border: 4px ridge #ffff00;
+  }
+
+  h1 {
+    font-family: Impact, "Arial Black", sans-serif;
+    font-size: 52px;
+    color: #ffff00;
+    text-shadow: 3px 3px 0 #ff0000, -2px -2px 0 #000080;
+    margin: 4px 0;
+    letter-spacing: 2px;
+    transform: rotate(-2deg);
+  }
+
+  .blink {
+    animation: blinker 1s step-start infinite;
+    color: red;
+    font-weight: bold;
+  }
+  @keyframes blinker { 50% { opacity: 0; } }
+
+  .construction {
+    background: repeating-linear-gradient(45deg, #ffff00, #ffff00 12px, #000 12px, #000 24px);
+    color: #000;
+    font-family: Impact, sans-serif;
+    text-align: center;
+    padding: 6px;
+    font-size: 20px;
+    text-shadow: 1px 1px 2px #fff;
+    border-top: 4px solid #000;
+    border-bottom: 4px solid #000;
+  }
+
+  nav {
+    background: #000080;
+    padding: 8px;
+    text-align: center;
+  }
+
+  nav a {
+    display: inline-block;
+    background: linear-gradient(to bottom, #ff00ff, #800080);
+    color: #ffff00 !important;
+    border: 3px outset #ff99ff;
+    padding: 6px 14px;
+    margin: 4px;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  nav a:hover {
+    background: linear-gradient(to bottom, #ffff00, #ff9900);
+    color: #000080 !important;
+    border-style: inset;
+  }
+
+  main { padding: 14px; }
+
+  .sparkle-title {
+    text-align: center;
+    font-size: 26px;
+    color: #ff00ff;
+    text-shadow: 1px 1px 0 #ffff00;
+  }
+
+  hr.retro {
+    border: 0;
+    height: 6px;
+    background: repeating-linear-gradient(90deg, #ff0000, #ff9900, #ffff00, #00ff00, #0000ff, #800080, #ff0000);
+  }
+
+  /* ------- HORISONTAL SKROLL-MENY (falafelmeny) ------- */
+  .menu-scroll-container {
+    background: #000080;
+    border: 4px inset #c0c0c0;
+    padding: 10px;
+    margin: 16px 0;
+  }
+  .menu-scroll {
+    display: flex;
+    gap: 14px;
+    overflow-x: auto;
+    padding: 10px;
+    scroll-snap-type: x mandatory;
+  }
+  .menu-card {
+    flex: 0 0 200px;
+    background: #ffffcc;
+    border: 4px ridge #ff00ff;
+    padding: 10px;
+    text-align: center;
+    scroll-snap-align: start;
+  }
+  .menu-card img.emoji {
+    font-size: 60px;
+    display: block;
+  }
+  .menu-card h3 {
+    font-family: Impact, sans-serif;
+    color: #cc0000;
+    margin: 6px 0;
+  }
+  .price-tag {
+    background: #ff0000;
+    color: #ffff00;
+    display: inline-block;
+    padding: 2px 8px;
+    font-weight: bold;
+    border: 2px dashed #000;
+  }
+  .nyhet {
+    color: red;
+    font-weight: bold;
+    font-size: 12px;
+  }
+
+  table.oldschool {
+    width: 100%;
+    border-collapse: collapse;
+    background: #c0c0c0;
+    border: 3px outset #fff;
+  }
+  table.oldschool td, table.oldschool th {
+    border: 1px solid #808080;
+    padding: 6px;
+    font-size: 13px;
+  }
+  table.oldschool th {
+    background: #000080;
+    color: #ffff00;
+  }
+
+  .guestbook {
+    background: #ffe4e1;
+    border: 4px groove #999;
+    padding: 12px;
+    margin-top: 16px;
+  }
+  .guestbook textarea, .guestbook input {
+    width: 95%;
+    font-family: "Comic Sans MS", cursive;
+    border: 2px inset #808080;
+    padding: 4px;
+    margin-bottom: 6px;
+  }
+  .guestbook button, .login-box button {
+    background: linear-gradient(to bottom, #00ff00, #009900);
+    border: 3px outset #66ff66;
+    font-weight: bold;
+    padding: 6px 16px;
+    cursor: pointer;
+  }
+
+  .login-box {
+    background: #d0d0f0;
+    border: 4px outset #8080c0;
+    padding: 14px;
+    max-width: 260px;
+    margin: 20px auto;
+    text-align: center;
+  }
+  .login-box input {
+    width: 90%;
+    margin: 4px 0;
+    padding: 4px;
+    border: 2px inset #808080;
+  }
+
+  footer {
+    text-align: center;
+    background: #000;
+    color: #0f0;
+    font-family: "Courier New", monospace;
+    padding: 10px;
+    font-size: 12px;
+  }
+
+  .badges { text-align: center; margin: 10px 0; }
+  .badges span {
+    display: inline-block;
+    background: #000;
+    color: #0f0;
+    font-family: monospace;
+    padding: 4px 8px;
+    margin: 3px;
+    border: 2px solid #0f0;
+    font-size: 11px;
+  }
+
+  .counter {
+    font-family: "Courier New", monospace;
+    background: #000;
+    color: #ff0000;
+    letter-spacing: 4px;
+    padding: 4px 10px;
+    border: 2px inset #444;
+    display: inline-block;
+  }
+</style>
+</head>
+<body>
+
+<div class="wrapper">
+
+  <marquee behavior="alternate" scrollamount="6" style="background:#000080; color:#ffff00; padding:4px; font-weight:bold;">
+    *** VELKOMMEN TIL JENS FALAFEL SIN HJEMMESIDE *** BESTE FALAFEL I HELE Oslo *** BESØK VÅR GJESTEBOK ***
+  </marquee>
+
+  <header>
+    <h1>🧆 JENS FALAFEL 🧆</h1>
+    <p class="blink">~*~ NÅ MED HJEMMESIDE PÅ NETTET! ~*~</p>
+  </header>
+
+  <div class="construction">
+    🚧 DENNE SIDEN ER UNDER KONSTRUKSJON 🚧 SIST OPPDATERT: 14.03.2003 🚧
+  </div>
+
+  <nav>
+    <a href="#hjem">Hjem</a>
+    <a href="#meny">Meny</a>
+    <a href="#om">Om oss</a>
+    <a href="#gjestebok">Gjestebok</a>
+    <a href="#login" onclick="return apneLogin();">Logg inn</a>
+  </nav>
+
+  <main id="hjem">
+    <p class="sparkle-title">✨ Velkommen til den offisielle Jens Falafel-siden! ✨</p>
+    <p style="text-align:center;">
+      Vi lager Oslos mest legendariske falafel, servert med kjærlighet siden år 2000!
+      Klikk deg rundt på siden vår, skriv i gjesteboka, og ikke glem å laste ned
+      skjermsparen vår (kommer snart)!
+    </p>
+
+    <div class="badges">
+      <span>Best viewed in 800x600</span>
+      <span>Netscape Navigator ready</span>
+      <span>100% MSG FRI!</span>
+      <span>Powered by Falafel-kraft</span>
+    </div>
+
+    <hr class="retro">
+
+    <p class="sparkle-title" id="meny">🍽️ VÅR MENY 🍽️</p>
+    <p style="text-align:center; font-size:12px;">(Skroll sidelengs for å se alle rettene våre! &rarr;)</p>
+
+    <!-- HORISONTAL SKROLL-SEKSJON -->
+    <div class="menu-scroll-container">
+      <div class="menu-scroll">
+
+        <div class="menu-card">
+          <span class="emoji">🧆</span>
+          <h3>Klassisk Falafel</h3>
+          <p>Sprø falafel i pitabrød med salat og hvitløksaus.</p>
+          <span class="price-tag">kr 89,-</span>
+        </div>
+
+        <div class="menu-card">
+          <span class="emoji">🌯</span>
+          <h3>Falafel Wrap</h3>
+          <p>Falafel rullet i lompe med tzatziki og syltet rødløk.</p>
+          <span class="price-tag">kr 95,-</span>
+          <p class="nyhet">NYHET!</p>
+        </div>
+
+        <div class="menu-card">
+          <span class="emoji">🥗</span>
+          <h3>Falafelbolle</h3>
+          <p>Falafel over quinoa, hummus og grønnsaker.</p>
+          <span class="price-tag">kr 109,-</span>
+        </div>
+
+        <div class="menu-card">
+          <span class="emoji">🔥</span>
+          <h3>Ekstra Sterk Falafel</h3>
+          <p>For de tøffeste! Habanero-sausen slår hardt.</p>
+          <span class="price-tag">kr 99,-</span>
+        </div>
+
+        <div class="menu-card">
+          <span class="emoji">🥤</span>
+          <h3>Mango Lassi</h3>
+          <p>Kald og deilig drikke til å slukke ilden.</p>
+          <span class="price-tag">kr 39,-</span>
+        </div>
+
+        <div class="menu-card">
+          <span class="emoji">🍩</span>
+          <h3>Zalabia</h3>
+          <p>Søte, sprø dessertboller med sukkersirup.</p>
+          <span class="price-tag">kr 45,-</span>
+          <p class="nyhet">NYHET!</p>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- TODO (DATABASE): Menyen ovenfor er hardkodet i HTML.
+         Elever skal koble denne til en ekte database (f.eks. via en
+         backend med SQLite/MySQL/PostgreSQL + et API), slik at retter,
+         priser og "NYHET"-merking kan administreres uten å endre HTML. -->
+
+    <p class="sparkle-title" id="om">📖 OM JENS FALAFEL 📖</p>
+    <table class="oldschool">
+      <tr><th>Grunnlagt</th><td>År 2000</td></tr>
+      <tr><th>Adresse</th><td>Falafelgata 1, Oslo</td></tr>
+      <tr><th>Åpningstider</th><td>Man-Søn: 11:00 - 22:00</td></tr>
+      <tr><th>Telefon</th><td>700 00 000</td></tr>
+      <tr><th>Spesialitet</th><td>Hemmelig krydderblanding siden 1998</td></tr>
+    </table>
+
+    <hr class="retro">
+
+    <!-- GJESTEBOK -->
+    <div class="guestbook" id="gjestebok">
+      <p class="sparkle-title">📝 SKRIV I GJESTEBOKA! 📝</p>
+      <form onsubmit="return leggTilGjest(event);">
+        <label>Navn:</label><br>
+        <input type="text" id="gjestNavn" placeholder="Ola Nordmann"><br>
+        <label>Melding:</label><br>
+        <textarea id="gjestMelding" rows="3" placeholder="Beste falafelen jeg har smakt!!!"></textarea><br>
+        <button type="submit">Send inn! 📨</button>
+      </form>
+
+      <div id="gjestebokListe">
+        <p><strong>Kari, 12.02.2003:</strong> Nam nam, denne falafelen er SÅ god!!! ⭐⭐⭐⭐⭐</p>
+        <p><strong>Per, 03.01.2003:</strong> Beste stedet i byen, kommer tilbake for evig!</p>
+      </div>
+    </div>
+
+    <div class="login-box" id="loginBoks" style="display:none;">
+      <p class="sparkle-title" style="font-size:18px;">🔐 LOGG INN 🔐</p>
+      <form onsubmit="return sjekkLogin(event);">
+        <input type="text" id="brukernavn" placeholder="Brukernavn"><br>
+        <input type="password" id="passord" placeholder="Passord"><br>
+        <button type="submit">Logg inn</button>
+      </form>
+      <p style="font-size:11px;">Ikke bruker? <a href="#">Registrer deg</a></p>
+    </div>
+
+    <p style="text-align:center;">
+      Besøkstall:
+      <span class="counter" id="tellerVerdi">000042</span>
+    </p>
+    
+  </main>
+
+  <hr class="retro">
+
+  <footer>
+    &copy; 2003 Jens Falafel - Alle rettigheter reservert<br>
+    Best Viewed in 800x600 with Internet Explorer 5.5<br>
+    Denne siden bruker informasjonskapsler laget av falafeldeig 🧆<br><br>
+    <span class="blink">SIST OPPDATERT: ALDRI SIDEN 2003 - HJELP OSS Å FORNYE DEN!</span>
+  </footer>
+
+</div>
+
+<script>
+  /* =====================================================================
+     ALT JAVASCRIPT UNDER HER ER BEVISST ENKELT / "FAKE".
+     Dette er utgangspunktet elevene skal bygge videre på.
+     ===================================================================== */
+
+  // --- Gjestebok (kun midlertidig, forsvinner ved reload) ---
+  // TODO (DATABASE): Bytt ut med fetch()-kall mot et ekte API/backend
+  // som lagrer og henter innlegg fra en database.
+  function leggTilGjest(e) {
+    e.preventDefault();
+    const navn = document.getElementById('gjestNavn').value || 'Anonym';
+    const melding = document.getElementById('gjestMelding').value;
+    if (!melding.trim()) {
+      alert('Du må skrive en melding, altså!');
+      return false;
+    }
+    const dato = new Date().toLocaleDateString('no-NO');
+    const liste = document.getElementById('gjestebokListe');
+    const nyttInnlegg = document.createElement('p');
+    nyttInnlegg.innerHTML = '<strong>' + navn + ', ' + dato + ':</strong> ' + melding;
+    liste.prepend(nyttInnlegg);
+    document.getElementById('gjestNavn').value = '';
+    document.getElementById('gjestMelding').value = '';
+    return false;
+  }
+
+  // --- "Login" (KUN for visning, IKKE sikker!) ---
+  // TODO (LOGIN): Dette er IKKE et ekte innloggingssystem. Alt skjer i
+  // nettleseren og hvem som helst kan lese/omgå koden. Bygg en ekte
+  // backend-løsning med sikker autentisering.
+  function apneLogin() {
+    const boks = document.getElementById('loginBoks');
+    boks.style.display = (boks.style.display === 'none') ? 'block' : 'none';
+    boks.scrollIntoView({behavior: 'smooth'});
+    return false;
+  }
+
+  function sjekkLogin(e) {
+    e.preventDefault();
+    const bruker = document.getElementById('brukernavn').value;
+    const pass = document.getElementById('passord').value;
+    // FAKE sjekk - IKKE bruk dette i en ekte løsning!
+    if (bruker === 'jens' && pass === 'falafel123') {
+      alert('Velkommen tilbake, ' + bruker + '! (Dette er ikke ekte sikkerhet!)');
+    } else {
+      alert('Feil brukernavn eller passord (eller: dette systemet er ikke ekte ennå!)');
+    }
+    return false;
+  }
+
+  // --- Besøksteller (kun lokal, "liksom") ---
+  // TODO (DATABASE): Erstatt med en ekte teller lagret i database på server.
+  (function tellBesok() {
+    let antall = sessionStorage.getItem('jensFalafelBesok');
+    antall = antall ? parseInt(antall) + 1 : 42;
+    sessionStorage.setItem('jensFalafelBesok', antall);
+    document.getElementById('tellerVerdi').textContent = String(antall).padStart(6, '0');
+  })();
+</script>
+
+</body>
+</html>
