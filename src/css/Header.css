@@ -1,5 +1,13 @@
 body {
 	background: black;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+}
+
+h1 {
+	display: flex;
+	flex-direction: row;
 }
 
 .header {
@@ -7,17 +15,35 @@ body {
 	background: rgb(174, 38, 38);
 	color: white;
 	display: flex;
-	justify-content: center;
+	justify-content: space-evenly;
 	align-items: center;
-	padding: 10px;
+	padding: 15px;
+	gap: 400px;
+	flex-wrap: nowrap;
+	max-width: 100vw;
 }
 
 ul {
 	list-style-type: none;
 	display: flex;
-	gap: 20px;
+	gap: 90px;
+	margin-bottom: 0.2rem;
+	text-align: center;
+	justify-content: flex-end;
+	position: relative;
+	left: 150px;
 }
 
-.main {
+nav {
+	font-size: 26px;
+	width: 100%;
+	max-height: 20vh;
 	display: flex;
+	flex-direction: row;
+}
+
+button {
+	border: none;
+	border-radius: 3px;
+	font-size: larger;
 }
