@@ -1,3 +1,10 @@
+Plan for hva jeg vil få til (rekke vis)
+
+1. Nettside som fungerer
+2. det tallet som stiger opp
+3. sende en mail/melding
+4. login page
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
