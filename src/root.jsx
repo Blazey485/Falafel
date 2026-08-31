@@ -14,10 +14,18 @@ import {
 const RootLayout = () => {
 	return (
 		<div>
-			<Header></Header>;
+			<Header></Header>
+			<Outlet></Outlet>
 		</div>
 	);
 };
+
+const routing = createBrowserRouter([
+	{
+		path: "/",
+		element: <RootLayout></RootLayout>
+	}
+]);
 
 const rootLayout = createRoot(
 	document.getElementById("root")
@@ -27,6 +35,6 @@ const rootLayout = createRoot(
 
 rootLayout.render(
 	<StrictMode>
-		<RootLayout></RootLayout>
+		<RouterProvider router={routing}></RouterProvider>
 	</StrictMode>
 );
