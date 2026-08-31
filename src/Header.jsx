@@ -1,7 +1,6 @@
 import { useState } from "react";
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./css/Header.css";
 import { Link } from "react-router";
 
 const Header = () => {
@@ -14,7 +13,9 @@ const Header = () => {
 					<ul>
 						<li>Home</li>
 
-						<li>About Us</li>
+						<li>
+							<Link to="/about">About us</Link>
+						</li>
 
 						<li>Contact</li>
 

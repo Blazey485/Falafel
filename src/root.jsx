@@ -1,10 +1,15 @@
-import { StrictMode } from "react";
-import { createRoot } from "react-dom/client";
-import React from "react";
+/* - Css Imports */
 import "./css/root.css";
+import "./css/Header.css";
 
+/*- Component imports  */
+import React, { Children } from "react";
+import AboutUs from "./AboutUs.jsx";
 import Header from "./Header.jsx";
 
+/*- Dependecies Imports	*/
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
 import {
 	createBrowserRouter,
 	RouterProvider,
