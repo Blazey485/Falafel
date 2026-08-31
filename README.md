@@ -1,9 +1,10 @@
 Plan for hva jeg vil få til (rekke vis)
 
-1. Nettside som fungerer
-2. det tallet som stiger opp
-3. sende en mail/melding
-4. login page
+1. website that works
+2. number that goes up randomly (to simulate the visitors at the shop)
+3. be able send mail/message from website
+4. login page/ account
+5. yes at the end styling with color and fix colour pallate
 
 # React + Vite
 
