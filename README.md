@@ -6,6 +6,8 @@ Plan for hva jeg vil få til (rekke vis)
 4. login page/ account
 5. yes at the end styling with color and fix colour pallate
 
+inspo website: https://www.thekebabshop.com/
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.

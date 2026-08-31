@@ -1,0 +1,23 @@
+body {
+	background: black;
+}
+
+.header {
+	display: flex;
+	background: rgb(174, 38, 38);
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+}
+
+ul {
+	list-style-type: none;
+	display: flex;
+	gap: 20px;
+}
+
+.main {
+	display: flex;
+}
