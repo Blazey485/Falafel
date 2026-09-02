@@ -6,7 +6,7 @@ import "./css/Header.css";
 import React, { Children } from "react";
 import AboutUs from "./AboutUs.jsx";
 import Header from "./Header.jsx";
-
+import Body from "./Body.jsx";
 /*- Dependecies Imports	*/
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
@@ -28,7 +28,9 @@ const RootLayout = () => {
 const routing = createBrowserRouter([
 	{
 		path: "/",
-		element: <RootLayout></RootLayout>
+		element: <RootLayout></RootLayout>,
+
+		children: [{ path: "/", element: <Body></Body> }]
 	}
 ]);
 
