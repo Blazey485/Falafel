@@ -1,47 +1,64 @@
 
 
 [
-   {
-		"navn": "",
-		"price": ""
-	},
 	{
-      "navn": "",
-		"price": ""
-	},
-	{
-
 		"navn": "",
-		"price": ""
-	},
-	{
-
-
-		"navn": "",
-		"price": ""
+		"price": "",
+		"picture": "",
+		"id": ""
 	},
 	{
 		"navn": "",
-		"price": ""
+		"price": "",
+		"picture": "",
+		"id": ""
 	},
 	{
 		"navn": "",
-		"price": ""
+		"price": "",
+		"picture": "",
+		"id": ""
 	},
 	{
 		"navn": "",
-		"price": ""
+		"price": "",
+		"picture": "",
+		"id": ""
 	},
 	{
 		"navn": "",
-		"price": ""
+		"price": "",
+		"picture": "",
+		"id": ""
 	},
 	{
 		"navn": "",
-		"price": ""
+		"price": "",
+		"picture": "",
+		"id": ""
 	},
-   {
-      "navn":"",
-      "price":""
-   }
+	{
+		"navn": "",
+		"price": "",
+		"picture": "",
+		"id": ""
+	},
+	{
+		"navn": "",
+		"price": "",
+		"picture": "",
+		"id": ""
+	},
+	{
+		"navn": "",
+		"price": "",
+		"picture": "",
+		"id": ""
+	},
+	{
+		"navn": "",
+		"price": "",
+		"picture": "",
+		"id": ""
+	}
 ]
