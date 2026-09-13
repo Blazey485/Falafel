@@ -1,0 +1,114 @@
+[
+   {
+      "navn": "Pommes Frites (Liten)",
+      "price": "45",
+      "picture": "",
+      "id": "201",
+      "ingridients": "Sprø friterte poteter, salt"
+   },
+   {
+      "navn": "Pommes Frites (Stor)",
+      "price": "65",
+      "picture": "",
+      "id": "202",
+      "ingridients": "Sprø friterte poteter, salt"
+   },
+   {
+      "navn": "Søtpotetfries",
+      "price": "75",
+      "picture": "",
+      "id": "203",
+      "ingridients": "Sprøstekte søtpoteter, havsalt"
+   },
+   {
+      "navn": "Dirty Falafel Fries",
+      "price": "119",
+      "picture": "",
+      "id": "204",
+      "ingridients": "Pommes frites toppet med knust falafel, jalapenos, hvitløksdressing, chilisaus og fersk persille"
+   },
+   {
+      "navn": "Halloumi Fries",
+      "price": "79",
+      "picture": "",
+      "id": "205",
+      "ingridients": "Friterte halloumistenger, servert med granateplesirup og chilidip"
+   },
+   {
+      "navn": "Løkringer (6 stk)",
+      "price": "55",
+      "picture": "",
+      "id": "206",
+      "ingridients": "Sprøpanerte og friterte løkringer"
+   },
+   {
+      "navn": "Hummus med Pitabrød",
+      "price": "89",
+      "picture": "",
+      "id": "207",
+      "ingridients": "Kremet kikertdipp, olivenolje, kikerter, paprika, ferskt pitabrød"
+   },
+   {
+      "navn": "Baba Ganoush med Pitabrød",
+      "price": "95",
+      "picture": "",
+      "id": "208",
+      "ingridients": "Røykt auberginedipp med tahini, hvitløk, sitronsaft, ferskt pitabrød"
+   },
+   {
+      "navn": "Tabbouleh",
+      "price": "69",
+      "picture": "",
+      "id": "209",
+      "ingridients": "Frisk persillesalat, bulgur, tomat, løk, mynte, olivenolje, sitron"
+   },
+   {
+      "navn": "Fritert Aubergine",
+      "price": "59",
+      "picture": "",
+      "id": "210",
+      "ingridients": "Skivede friterte aubergener toppet med tahinidressing og persille"
+   },
+   {
+      "navn": "Oliven & Fetaost",
+      "price": "55",
+      "picture": "",
+      "id": "211",
+      "ingridients": "Marinerte grønne og sorte oliven, terninger av fetaost, oregano"
+   },
+   {
+      "navn": "Ekstra Pitabrød",
+      "price": "20",
+      "picture": "",
+      "id": "212",
+      "ingridients": "Varmt, ferskbakt pitabrød"
+   },
+   {
+      "navn": "Husets Hvitløksdip",
+      "price": "25",
+      "picture": "",
+      "id": "213",
+      "ingridients": "Kremet hvitløkssaus"
+   },
+   {
+      "navn": "Sterk Chilidip",
+      "price": "25",
+      "picture": "",
+      "id": "214",
+      "ingridients": "Hjemmelaget sterk chili- og tomatsaus"
+   },
+   {
+      "navn": "Tahinidip",
+      "price": "25",
+      "picture": "",
+      "id": "215",
+      "ingridients": "Sesampasta med sitron og hvitløk"
+   },
+   {
+      "navn": "Amba (Mangodip)",
+      "price": "25",
+      "picture": "",
+      "id": "216",
+      "ingridients": "Syrlig og krydret mangosaus"
+   }
+]

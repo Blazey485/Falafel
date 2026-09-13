@@ -1,0 +1,107 @@
+[
+   {
+      "navn": "Coca-Cola Classic (0.5L)",
+      "price": "45",
+      "picture": "",
+      "id": "101",
+      "ingridients": "Kullsyreholdig leskedrikk med sukker"
+   },
+   {
+      "navn": "Coca-Cola Uten Sukker (0.5L)",
+      "price": "45",
+      "picture": "",
+      "id": "102",
+      "ingridients": "Kullsyreholdig leskedrikk uten sukker"
+   },
+   {
+      "navn": "Pepsi Max (0.5L)",
+      "price": "45",
+      "picture": "",
+      "id": "103",
+      "ingridients": "Kullsyreholdig leskedrikk uten sukker"
+   },
+   {
+      "navn": "Solo (0.5L)",
+      "price": "45",
+      "picture": "",
+      "id": "104",
+      "ingridients": "Kullsyreholdig appelsinbrus"
+   },
+   {
+      "navn": "Fanta Orange (0.33L boks)",
+      "price": "38",
+      "picture": "",
+      "id": "105",
+      "ingridients": "Kullsyreholdig appelsinbrus"
+   },
+   {
+      "navn": "Sprite Zero (0.33L boks)",
+      "price": "38",
+      "picture": "",
+      "id": "106",
+      "ingridients": "Kullsyreholdig sitronbrus uten sukker"
+   },
+   {
+      "navn": "Farris Naturell (0.5L)",
+      "price": "42",
+      "picture": "",
+      "id": "107",
+      "ingridients": "Kullsyreholdig mineralvann"
+   },
+   {
+      "navn": "Farris Bris Sitron (0.5L)",
+      "price": "42",
+      "picture": "",
+      "id": "108",
+      "ingridients": "Lett kullsyreholdig mineralvann med sitronsmak"
+   },
+   {
+      "navn": "Ayran (0.25L)",
+      "price": "35",
+      "picture": "",
+      "id": "109",
+      "ingridients": "Tradisjonell salt yoghurtdrikk"
+   },
+   {
+      "navn": "Lokal Eplemost (0.33L glass)",
+      "price": "49",
+      "picture": "",
+      "id": "110",
+      "ingridients": "100% ren presset eplejuice"
+   },
+   {
+      "navn": "FuzeTea Iste Fersken (0.4L)",
+      "price": "45",
+      "picture": "",
+      "id": "111",
+      "ingridients": "Iste med ferskensmak"
+   },
+   {
+      "navn": "Hjemmelaget Mango Lassi",
+      "price": "59",
+      "picture": "",
+      "id": "112",
+      "ingridients": "Yoghurt, mangopuré, melk, sukker, kardemomme"
+   },
+   {
+      "navn": "Fersk Mynte-Te",
+      "price": "39",
+      "picture": "",
+      "id": "113",
+      "ingridients": "Varmt vann, ferske mynteblader, honning/sukker"
+   },
+   {
+      "navn": "Arabisk Kaffe med Kardemomme",
+      "price": "35",
+      "picture": "",
+      "id": "114",
+      "ingridients": "Mørkbrent kaffe, støtt kardemomme"
+   },
+   {
+      "navn": "Filterkaffe",
+      "price": "30",
+      "picture": "",
+      "id": "115",
+      "ingridients": "Nytraktet mørkbrent kaffe"
+   }
+]

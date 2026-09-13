@@ -1,64 +1,128 @@
-
-
 [
 	{
-		"navn": "",
-		"price": "",
+		"navn": "Klassisk Falafelrull",
+		"price": "119",
 		"picture": "",
-		"id": ""
+		"id": "1",
+		"ingridients": "Falafel, lefse, isbergsalat, tomat, agurk, rødløk, sylteagurk, tahinidressing"
 	},
 	{
-		"navn": "",
-		"price": "",
+		"navn": "Spicy Falafelrull",
+		"price": "125",
 		"picture": "",
-		"id": ""
+		"id": "2",
+		"ingridients": "Falafel, lefse, isbergsalat, jalapenos, tomat, agurk, chilisaus, hvitløksdressing"
 	},
 	{
-		"navn": "",
-		"price": "",
+		"navn": "Falafelrull med Halloumi",
+		"price": "145",
 		"picture": "",
-		"id": ""
+		"id": "3",
+		"ingridients": "Falafel, grillet halloumi, lefse, salat, tomat, agurk, rødløk, hvitløksdressing"
 	},
 	{
-		"navn": "",
-		"price": "",
+		"navn": "Falafelrull med Aubergine",
+		"price": "135",
 		"picture": "",
-		"id": ""
+		"id": "4",
+		"ingridients": "Falafel, friterte aubergineskiver, lefse, salat, tomat, persille, tahini"
 	},
 	{
-		"navn": "",
-		"price": "",
+		"navn": "Vegan Spesial Rull",
+		"price": "139",
 		"picture": "",
-		"id": ""
+		"id": "5",
+		"ingridients": "Falafel, hummus, lefse, ruccola, granateplekjerner, agurk, tomat, vegansk dressing"
 	},
 	{
-		"navn": "",
-		"price": "",
+		"navn": "Ekstra Stor Falafelrull",
+		"price": "159",
 		"picture": "",
-		"id": ""
+		"id": "6",
+		"ingridients": "Ekstra falafel (6 stk), lefse, isbergsalat, tomat, agurk, rødløk, valgfri dressing"
 	},
 	{
-		"navn": "",
-		"price": "",
+		"navn": "Falafeltallerken",
+		"price": "179",
 		"picture": "",
-		"id": ""
+		"id": "7",
+		"ingridients": "Falafel (6 stk), pommes frites eller ris, frisk salat, hummus, pitabrød, hvitløksdressing"
 	},
 	{
-		"navn": "",
-		"price": "",
+		"navn": "Liten Falafeltallerken",
+		"price": "149",
 		"picture": "",
-		"id": ""
+		"id": "8",
+		"ingridients": "Falafel (4 stk), halv porsjon pommes frites, salat, tahini"
 	},
 	{
-		"navn": "",
-		"price": "",
+		"navn": "Falafel & Halloumi Tallerken",
+		"price": "199",
 		"picture": "",
-		"id": ""
+		"id": "9",
+		"ingridients": "Falafel (4 stk), grillet halloumi (4 skiver), bulgur, salat, tzatziki, pitabrød"
 	},
 	{
-		"navn": "",
-		"price": "",
+		"navn": "Meze Tallerken",
+		"price": "210",
 		"picture": "",
-		"id": ""
+		"id": "10",
+		"ingridients": "Falafel, hummus, baba ganoush, tabbouleh, oliven, fetaost, pitabrød"
+	},
+	{
+		"navn": "Klassisk Falafel i Pita",
+		"price": "109",
+		"picture": "",
+		"id": "11",
+		"ingridients": "Falafel, ferskt pitabrød, salat, tomat, agurk, tahini"
+	},
+	{
+		"navn": "Falafelsalat",
+		"price": "155",
+		"picture": "",
+		"id": "14",
+		"ingridients": "Falafel (5 stk), blanda salat, cherrytomater, agurk, reddik, fetaost, vinaigrette"
+	},
+	{
+		"navn": "Fattoush Salat med Falafel",
+		"price": "165",
+		"picture": "",
+		"id": "15",
+		"ingridients": "Falafel, romanosalat, tomat, agurk, reddik, mynte, sprøstekt pitabrød, sumak-dressing"
+	},
+	{
+		"navn": "Ekstra Falafel (1 stk)",
+		"price": "15",
+		"picture": "",
+		"id": "22",
+		"ingridients": "Kikerter, urter, krydder"
+	},
+	{
+		"navn": "Ekstra Falafel (3 stk)",
+		"price": "39",
+		"picture": "",
+		"id": "23",
+		"ingridients": "Kikerter, urter, krydder"
+	},
+	{
+		"navn": "Barnemeny: Liten Falafel",
+		"price": "99",
+		"picture": "",
+		"id": "24",
+		"ingridients": "Liten pitabrød med 3 falafel, salat, rømmedressing, og liten valgfri drikke"
+	},
+	{
+		"navn": "Falafel Wrap",
+		"price": "149",
+		"picture": "",
+		"id": "25",
+		"ingridients": "Falafel, lefse, isbergsalat, tomat, agurk, rødløk, sylteagurk, tahinidressing"
+	},
+	{
+		"navn": "Ekstra Sterk Falafel",
+		"price": "169",
+		"picture": "",
+		"id": "26",
+		"ingridients": "Falafel, Habanero-saus, lefse, isbergsalat, tomat, agurk, rødløk, sylteagurk, tahinidressing"
 	}
 ]
