@@ -11,15 +11,32 @@ const Header = () => {
 
 				<nav>
 					<ul>
-						<li>Home</li>
-
 						<li>
-							<Link to="/about">About us</Link>
+							<Link
+								to="/"
+								className="text-decoration-none text-white"
+							>
+								Home
+							</Link>
 						</li>
 
-						<li>Contact</li>
+						<li>
+							<Link
+								to="/about"
+								className="text-decoration-none text-white"
+							>
+								About us
+							</Link>
+						</li>
 
-						<li>Login</li>
+						<li>
+							<Link
+								to="/contact"
+								className="text-decoration-none text-white"
+							>
+								Contact
+							</Link>
+						</li>
 					</ul>
 				</nav>
 			</div>
