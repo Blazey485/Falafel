@@ -10,7 +10,7 @@ const Body = () => {
 			<br />
 			<h1 className="menu_title">Falafelene vi tilbyr</h1>
 
-			<div className="menu-container">
+			<div className="menu-container bg-danger">
 				{matretter.map((filtered) => (
 					<MatKort
 						key={filtered.id}

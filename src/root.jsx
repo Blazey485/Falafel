@@ -8,6 +8,7 @@ import React, { Children } from "react";
 import AboutUs from "./AboutUs.jsx";
 import Header from "./Header.jsx";
 import Body from "./Body.jsx";
+import Footer from "./Footer.jsx";
 
 import Error from "./Error.jsx";
 /*- Dependecies Imports	*/
@@ -24,6 +25,7 @@ const RootLayout = () => {
 		<div>
 			<Header></Header>
 			<Outlet></Outlet>
+			<Footer></Footer>
 		</div>
 	);
 };

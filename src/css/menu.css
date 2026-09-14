@@ -1,10 +1,11 @@
+
 .menu {
    width: 450px;
 
-   border: 1px solid rgb(0, 0, 0);
+
 
    padding: 10px;
-   background-color: #f0f0f0;
+
 }
 
 .menu img{
@@ -22,5 +23,5 @@
 
 img{
    width: 200px;
-
+   height: 200px;
 }

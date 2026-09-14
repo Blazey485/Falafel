@@ -2,3 +2,14 @@ body,
 html {
 	text-decoration: none;
 }
+.blink {
+	animation: blinker 5s step-start infinite;
+	color: red;
+	font-weight: bold;
+}
+
+@keyframes blinker {
+	50% {
+		opacity: 0;
+	}
+}
