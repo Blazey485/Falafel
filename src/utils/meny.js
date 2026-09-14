@@ -1,4 +1,4 @@
-[
+const menyData = [
 	{
 		"navn": "Klassisk Falafelrull",
 		"price": "119",
@@ -126,3 +126,5 @@
 		"ingridients": "Falafel, Habanero-saus, lefse, isbergsalat, tomat, agurk, rødløk, sylteagurk, tahinidressing"
 	}
 ]
+
+export default menyData;
