@@ -1,6 +1,7 @@
 /* - Css Imports */
 import "./css/root.css";
 import "./css/Header.css";
+import "./css/menu.css";
 
 /*- Component imports  */
 import React, { Children } from "react";
