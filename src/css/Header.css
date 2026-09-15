@@ -15,16 +15,21 @@ h1 {
 	background: rgb(174, 38, 38);
 	color: white;
 	display: flex;
-	justify-content: space-evenly;
+
 	align-items: center;
 	padding: 15px;
-	gap: 400px;
+	gap: 167px;
 	flex-wrap: nowrap;
 	max-width: 100vw;
 	text-decoration: none;
 	flex-direction: row;
 }
 
+nav {
+	display: flex;
+	align-items: center;
+	margin-top: 10px;
+}
 ul {
 	list-style-type: none;
 	display: flex;
@@ -33,5 +38,7 @@ ul {
 	text-align: center;
 	justify-content: flex-end;
 	position: relative;
+	font: 1.6rem;
 
 }
+
