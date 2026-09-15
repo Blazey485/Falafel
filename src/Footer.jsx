@@ -1,6 +1,6 @@
 const Footer = () => {
 	return (
-		<div>
+		<div className="footer">
 			<footer>
 				<p>
 					2003 Jens Falafel - Alle rettigheter reservert{" "}
