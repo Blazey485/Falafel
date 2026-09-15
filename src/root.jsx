@@ -38,12 +38,12 @@ const routing = createBrowserRouter([
 		children: [
 			{
 				path: "/",
-				element: <Body></Body>
+				element: <AboutUs></AboutUs>
 			},
 
 			{
-				path: "/about",
-				element: <AboutUs></AboutUs>
+				path: "/meny",
+				element: <Body></Body>
 			}
 		],
 		errorElement: <Error></Error>

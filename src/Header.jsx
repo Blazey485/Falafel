@@ -22,10 +22,10 @@ const Header = () => {
 
 						<li>
 							<Link
-								to="/about"
+								to="/meny"
 								className="text-decoration-none text-white"
 							>
-								About us
+								Menyen
 							</Link>
 						</li>
 
