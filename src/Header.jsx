@@ -7,8 +7,6 @@ const Header = () => {
 	return (
 		<div className="main">
 			<div className="header">
-				<h1>🧆 JENS FALAFEL 🧆</h1>
-
 				<nav>
 					<ul>
 						<li>
@@ -39,6 +37,7 @@ const Header = () => {
 						</li>
 					</ul>
 				</nav>
+				<h1>🧆 JENS FALAFEL 🧆</h1>
 			</div>
 		</div>
 	);
