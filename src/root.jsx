@@ -5,12 +5,12 @@ import "./css/menu.css";
 
 /*- Component imports  */
 import React, { Children } from "react";
-import AboutUs from "./AboutUs.jsx";
-import Header from "./Header.jsx";
-import Body from "./Body.jsx";
-import Footer from "./Footer.jsx";
+import AboutUs from "./Components/AboutUs.jsx";
+import Header from "./Components/Header.jsx";
+import Body from "./Components/Body.jsx";
+import Footer from "./Components/Footer.jsx";
+import Error from "./Components/Error.jsx";
 
-import Error from "./Error.jsx";
 /*- Dependecies Imports	*/
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";

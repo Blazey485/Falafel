@@ -1,5 +1,5 @@
 
-import menyData from "./utils/meny.js";
+import menyData from "../utils/meny.js";
 
 
 const MatKort = (props) => {

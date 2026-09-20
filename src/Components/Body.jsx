@@ -1,6 +1,6 @@
 import MatKort from "./MatKort.jsx";
 import { use, useState } from "react";
-import menyData from "./utils/meny.js";
+import menyData from "../utils/meny.js";
 
 const Body = () => {
 	const [matretter, setMatretter] = useState(menyData);
